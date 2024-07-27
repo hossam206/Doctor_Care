@@ -1,0 +1,24 @@
+.searchinput
+{
+    position: absolute;
+    width: 500px;
+    height: 49px;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.searchinput input
+{
+   outline: none;
+    padding: 6px 5px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid blue;
+    width: 101%;
+}
+.searchinput svg
+{
+    cursor: pointer;
+    margin-top: 20px;
+}

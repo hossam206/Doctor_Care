@@ -1,0 +1,284 @@
+.whyUsContent {
+  margin-top: 100px;
+  position: relative;
+}
+.headerimg {
+  width: 100%;
+}
+.headerimg img {
+  border-style: none;
+  height: auto;
+  width: 100%;
+  height: 385px;
+  vertical-align: middle;
+  border-radius: 18px;
+  border: 1px solid #e1e1e1;
+}
+.headerimg h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #1f2278;
+  line-height: 1.2;
+  margin-top: 39px;
+  font-size: 37px;
+}
+.headerimg p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #727272;
+}
+.listCheckSquare {
+  margin-left: -39px;
+  margin-top: 17px;
+}
+.listCheckSquare li {
+  display: block;
+  color: #1f2278;
+  font-size: 20px;
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  position: relative;
+  padding: 8px 15px 7px 50px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  transition: 0.3s all ease-in-out;
+}
+.listCheckSquare li::before {
+  content: "✓";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  background-color: #f17732;
+  transition: all 0.5s;
+  width: 35px;
+  height: 35px;
+  display: block;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  border-radius: 4px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.listCheckSquare li:hover {
+  color: #f17732;
+}
+.skillapeer {
+  position: relative;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.15);
+  height: 6px;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+}
+.skillbar h6 {
+  font-size: 20px !important;
+  color: #2b2d60;
+  font-weight: 500;
+}
+.skill-bar-width {
+  height: 6px;
+  border-radius: 10px;
+  width: 0;
+  background: #565acf;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  margin-bottom: 0;
+  overflow: unset !important;
+}
+.skillapeer .one {
+  width: 96%;
+}
+.skillapeer .two {
+  width: 85%;
+}
+.skillapeer .three {
+  width: 75%;
+}
+.skillapeer .four {
+  width: 98%;
+}
+.skill-bar-width::after {
+  content: "";
+  border-radius: 15px;
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -5px;
+  border: 3px solid #565acf;
+  top: -8px;
+}
+.skil-bar-percent {
+  position: absolute;
+  top: -35px;
+  right: 0;
+  color: #565acf;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* start :right div */
+.blockone {
+  margin-top: 20px;
+}
+.blockoneList {
+  position: relative;
+  background-color: #fff;
+  border-radius: 6px 6px 4px 4px !important;
+  padding: 30px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 6%);
+  border: 1px solid rgba(86, 90, 207, 0.2);
+  border-bottom: 3px solid #565acf;
+}
+.blockoneList li {
+  display: block;
+  padding: 17px 50px 15px 20px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-weight: 600;
+
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #565acf;
+  transition: 0.4s all ease-in-out;
+}
+.blockoneList li span {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+.blockoneList li.active {
+  background-color: #f17732;
+}
+.blockoneList :hover {
+  background-color: #f17732;
+}
+.blockoneList li span {
+  width: 31px;
+  height: 26px;
+  background-color: #fff;
+  color: #565acf;
+  text-align: center;
+  border-radius: 4px;
+}
+/* start scond block */
+.block2 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 6px 6px 4px 4px !important;
+  padding: 30px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 6%);
+  border: 1px solid rgba(86, 90, 207, 0.2);
+  border-bottom: 3px solid #565acf;
+  margin-top: 40px;
+}
+.block2heading h4 {
+  color: #23267b;
+}
+.block2heading span {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background-color: #c5c5c5;
+  display: block;
+  margin-bottom: 9px;
+}
+.block2heading span::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: -2px;
+  width: 17%;
+  height: 4px;
+  background-color: #5559cd;
+  border-radius: 2px;
+}
+.block2 ul li {
+  display: block;
+  padding: 17px 50px 15px 20px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-weight: 600;
+
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #565acf;
+  transition: 0.4s all ease-in-out;
+  margin-left: -30px;
+  margin-top: 26px;
+  display: flex;
+}
+.block2 ul li svg {
+  display: inline-block;
+  font-size: 39px;
+  margin-right: 3px !important;
+}
+.block2 ul li div p {
+  margin-left: 11px;
+  font-family: inherit;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.block2 ul li div a {
+  color: #fff;
+  margin-left: 13px;
+  font-weight: 400;
+}
+.block2 ul li div a:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+/* start popular question */
+.popular-heading {
+  margin-top: 34px;
+}
+.popular-heading h3 {
+  color: #1f2278;
+}
+.popular-heading p {
+  font-size: 18px;
+  color: #585858;
+  font-family: inherit;
+  font-weight: 470;
+}
+
+.togglequestion .questionblock a {
+  width: 100% !important;
+  background-color: #565acf;
+  border: none;
+  text-align: left;
+  text-indent: 11px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.togglequestion .questionblock a::after {
+  float: right;
+  margin-top: 7px;
+}
+.qustionDetails li {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  font-size: 17px;
+  height: 102px;
+  font-weight: 400;
+  color: #333333;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: 0.3s all ease-in-out;
+}

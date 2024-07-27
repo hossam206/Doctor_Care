@@ -1,0 +1,94 @@
+/* start leftfiv styling  */
+.header {
+  position: relative;
+  background-image: url("../../images/Header/background.jpg");
+  background-size: cover;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.leftdiv-details {
+  margin-top: 200px;
+}
+.leftdiv-details p {
+  color: #565acf;
+  font-size: 23px;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.leftdiv-details h1 {
+  color: #1f2278;
+  font-weight: 800;
+  font-size: 45px;
+  text-transform: capitalize;
+  font-family: system-ui;
+}
+.leftdiv-details button {
+  margin-top: 20px;
+  width: 29%;
+}
+.leftdiv-details button a {
+  width: 132px;
+  color: #ffff;
+  font-weight: 600;
+  margin-top: 22px;
+}
+
+/* start right div style */
+.circleimg {
+  margin-left: 100px;
+  animation: rotate 4s infinite alternate;
+}
+.rightdiv-img {
+  width: 100%;
+  height: auto;
+}
+.rightdiv-img img {
+  width: 95%;
+  animation: moving 1.6s infinite alternate;
+}
+.square {
+  position: absolute;
+  left: 44%;
+  top: 30%;
+  animation: moving 2s infinite alternate;
+}
+.traingle {
+  position: absolute;
+  left: 1%;
+  top: 83%;
+  animation: moving 4s infinite alternate;
+}
+/* start all keyfams */
+@keyframes moving {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+/* start rotate animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+/* start media query */
+@media screen and (max-width: 767px) {
+  .leftdiv-details {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    padding-bottom: 85px;
+  }
+  .leftdiv-details {
+    margin-top: 92px !important;
+  }
+}

@@ -1,0 +1,53 @@
+.Aboutus3rd-blocks {
+  background-color: #eeeefa;
+  margin-top: 48px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.Aboutus3rd-blocks .backBorder {
+  position: relative;
+  border: 2px solid #565acf;
+
+  height: 296px;
+  border-radius: 31px;
+  /* margin-right: 19px; */
+  margin-bottom: 20px;
+}
+.Aboutus3rd-blocks .block {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 31px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+
+  height: 289px;
+  transition: 0.3s all ease-in-out;
+}
+.Aboutus3rd-blocks .block:hover {
+  background-color: #565acf;
+}
+.Aboutus3rd-blocks .block:hover.block h1,
+.Aboutus3rd-blocks .block:hover.block span,
+.Aboutus3rd-blocks .block:hover.block p {
+  color: #fff;
+}
+.Aboutus3rd-blocks .block span {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ef8428fc;
+}
+.Aboutus3rd-blocks .block h1 {
+  font-size: 28px;
+  color: #1f2278;
+  font-weight: 500;
+}
+.Aboutus3rd-blocks .block h1 {
+  font-size: 20px;
+  color: #444;
+}
+
+/* start media query */
+@media screen and (max-width: 480px) {
+}

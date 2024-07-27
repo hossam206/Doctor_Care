@@ -1,0 +1,154 @@
+/* start li styling */
+.About {
+  margin-top: 100px;
+  height: fit-content;
+}
+.images img {
+  width: 46%;
+  height: 25%;
+  margin: 6px;
+}
+.images img:first-of-type {
+  border-radius: 0 60px 60px;
+}
+.images img:nth-of-type(2) {
+  border-radius: 60px 0 60px 60px;
+}
+.images img:nth-of-type(3) {
+  border-radius: 60px 60px 60px 0;
+}
+.images img:nth-of-type(4) {
+  border-radius: 60px 0 60px 60px;
+}
+
+/* start About details styling */
+.AboutDetail {
+  margin-top: 64px;
+  position: relative;
+}
+
+.AboutDetail .square {
+  position: absolute;
+  right: 0px;
+  top: 75px;
+  animation: rotatesquare 7s alternate infinite;
+}
+.AboutDetail .wave {
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  animation: wave 3s alternate infinite;
+}
+
+@keyframes rotatesquare {
+  0% {
+    transform: rotate(180deg);
+  }
+}
+@keyframes wave {
+  0% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+.AboutDetail h1 {
+  font-size: 20px;
+  color: var(--orange-color);
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.AboutDetail p {
+  font-size: 39px;
+  color: #1f2278;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: system-ui;
+}
+.AboutDetail span {
+  font-size: 17px;
+  color: #4c4c4c;
+  font-family: sans-serif;
+}
+
+/* start ul services */
+.service {
+  display: flex;
+  flex-wrap: wrap;
+}
+.service li {
+  width: 243px;
+  height: 55px;
+  color: #474990;
+  margin: 14px 49px 10px -35px;
+  display: flex;
+  align-items: center;
+  border-radius: 9px;
+  overflow: hidden;
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.service li:hover {
+  background-color: #474990;
+  color: #fff;
+  border: none;
+  /* transform: translate(10px,10px); */
+}
+.service li:first-of-type {
+  border: 1px solid #6ed9ed;
+}
+.service li:nth-of-type(2) {
+  border: 1px solid #a4fcc4;
+}
+.service li:nth-of-type(3) {
+  border: 1px solid #ffbdbc;
+}
+.service li:nth-of-type(4) {
+  border: 1px solid#e2c4ff;
+}
+.service li span {
+  border-radius: 0px 36px 36px 0px;
+  margin-right: 14px;
+}
+.service li span svg {
+  font-size: 30px;
+  padding: 14px;
+  display: block;
+}
+.service li .first {
+  background-color: #6ed9ed;
+  opacity: 0.8;
+}
+.service li .second {
+  background-color: #eefff4;
+}
+.service li .third {
+  background-color: #ffbdbc;
+  opacity: 0.9;
+}
+.service li .forth {
+  background-color: #f8f0ff;
+}
+.AboutDetail button {
+  width: 243px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #565acf;
+  border: 1px solid #565acf;
+}
+.AboutDetail button:hover {
+  color: #eefff4;
+  background-color: #6669c9;
+  border: 1px solid #565acf;
+}
+/* start media query */
+@media screen and (max-width: 767px) {
+  .service li {
+    width: 404px;
+  }
+}

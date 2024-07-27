@@ -1,0 +1,83 @@
+.logindiv
+{
+    position: relative;
+    height: auto;
+    top: 50px;
+}
+.logindiv .logincontent
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 364px;
+    padding: 20px;
+    background-color: rgba(243, 243, 243, 0.993);
+    height: 496px;
+    border-radius: 24px;
+}
+.logodiv img
+{
+ margin: 29px 0px;
+}
+.inputfields input
+{
+
+    padding: 9px;
+    width: 317px;
+    margin-bottom: 17px;
+    border-radius: 8px;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgba(86,90,207,.3);
+    border-radius: 8px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    transition: .3s all ease-in-out;
+}
+.inputfields input:focus
+{
+    border: 1px solid #565ACF;
+} 
+.logincontent span:first-of-type
+{
+    font-size: 20px;
+    color: #565ACF;
+    font-weight: 400;
+    font-family: revert;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.logincontent span:nth-of-type(2)
+{
+    font-size: 26px;
+    font-weight: 100;
+    margin-top: 9px;
+    font-family: sans-serif;
+    margin-bottom: 19px;
+    cursor: pointer;
+    color: #646464;
+
+}  
+.logincontent button
+{
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all .5s;
+    border-width: 2px;
+    line-height: 1.2;
+    background-color: #f17732;
+    color: #fff;
+    border: 1px solid #ff853f;
+    width: 299px;
+}
+.logincontent button:hover
+{
+    background-color: #ff640a;
+    color: #fff;
+    border: 1px solid #ff853f;
+}

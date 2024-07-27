@@ -1,0 +1,34 @@
+/* start work styling */
+.work
+{
+    margin-top: 116px;
+    text-align: center;
+    background-image: url('../../images/work/download.png');
+    background-size: cover;
+    margin-bottom: 40px;
+    position: relative;
+}
+.work span
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--orange-color);
+    text-transform: capitalize;
+}
+.work img
+{
+    position: absolute;
+    right: 9px;
+    top:50%;
+    animation: moving 1.2s alternate infinite;
+}
+@keyframes moving
+{
+    0%{
+       transform: translateY(-10px);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+}

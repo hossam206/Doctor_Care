@@ -1,0 +1,66 @@
+.Headerfxed {
+  background-image: url("../../images/footer/footer.jpg");
+  background-size: cover;
+  height: 420px;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+  position: relative;
+}
+.Headerfxed h1 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 62px;
+  margin-bottom: 20px;
+  color: #1f2278;
+  text-transform: capitalize;
+  padding-bottom: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.blockheader {
+  display: flex;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -59%);
+  width: 238px;
+  height: 49px;
+  background-color: #565ad9;
+  padding: 10px 27px;
+  border-radius: 11px;
+  color: #fff;
+  font-weight: 700;
+  font-family: inherit;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.blockheader a {
+  display: inline-block;
+  color: #fff !important;
+}
+.blockheader a:hover {
+  color: #7e82e9 !important;
+}
+.blockheader .page-title {
+  font-family: revert;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.fixedheaderimg img:first-child {
+  position: absolute;
+  left: 0px;
+  animation: moving 3s alternate infinite;
+}
+.fixedheaderimg img:nth-child(2) {
+  position: absolute;
+  right: 70%;
+  top: 80%;
+  animation: rotate 6s alternate infinite;
+}
+.fixedheaderimg img:nth-child(3) {
+  position: absolute;
+  top: 70%;
+  right: 40px;
+  animation: moving 2s alternate infinite;
+}

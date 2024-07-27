@@ -1,0 +1,91 @@
+.BestDoctor {
+  height: 554px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 35px 40px 50px;
+  border-radius: 20px;
+  transition: all 0.5s;
+  z-index: 1;
+  position: relative;
+  border: 2px solid rgba(86, 90, 207, 0.2);
+  margin-top: 20px;
+  transition: 0.3s all ease-in-out;
+}
+.BestDoctor:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.BestDoctor:hover .BestDoctor-img::before,
+.BestDoctor:hover .BestDoctor-img::after {
+  opacity: 0.9;
+}
+.BestDoctor-img {
+  position: relative;
+  padding: 84px 0px;
+}
+.BestDoctor-img img {
+  position: relative;
+  border-style: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  width: 129px;
+  border-radius: 53px;
+  height: 128px;
+}
+.BestDoctor-img::before {
+  position: absolute;
+  background-image: url("../../../images/download (2).png");
+  content: "";
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transition: all 0.5s;
+  opacity: 0.2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.BestDoctor-img::after {
+  background-image: url("../../../images/download.png");
+  content: "";
+  position: absolute;
+  background-size: 100%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transition: all 0.5s;
+  opacity: 0.2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.BestDoctor-Name h1 {
+  font-size: 27px;
+  margin-top: 11px;
+  font-weight: 650;
+  color: #1f2278;
+}
+.BestDoctor-speciality span {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 12px;
+  color: #f38d53;
+}
+.social .social-Links li {
+  display: inline-block;
+}
+.social .social-Links li a img {
+  width: 41px;
+  height: 43px;
+  margin-right: 11px;
+  margin-top: 19px;
+}
+.social .social-Links li a img:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

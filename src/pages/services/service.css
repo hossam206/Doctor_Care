@@ -1,0 +1,67 @@
+.services {
+  margin-top: 120px;
+}
+.service-detail {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.service-detail span {
+  color: var(--orange-color);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  background-image: url("../../images/Testimonial/d.png");
+  width: 90px;
+}
+.service-detail h1 {
+  color: #1f2278;
+  font-size: 47px;
+  font-weight: 650;
+  margin-bottom: 30px;
+}
+.service-detail p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #161616;
+}
+.service-detail button {
+  padding: 10px;
+  width: 300px;
+  margin-top: 20px;
+  background-color: var(--orange-color);
+  border: 1px solid var(--orange-color);
+  font-size: 20px;
+}
+.service-detail button a {
+  color: #fff;
+}
+.service-detail button:hover {
+  background-color: rgb(235, 114, 1);
+  border: 1px solid rgb(235, 114, 1);
+}
+/* start styling blocks */
+.blocks {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+.blocks::after {
+  content: "";
+  background-color: #565acf;
+  height: 453px;
+  width: 68%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  border-radius: 40px 0 0 40px;
+}
+.swiper {
+  width: 565px !important;
+}
+@media screen and (max-width: 480px) {
+  .blocks {
+    margin-top: 26px !important;
+  }
+}

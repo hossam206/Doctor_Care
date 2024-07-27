@@ -1,0 +1,143 @@
+.contactUs-sec {
+  background-color: #000;
+  margin-top: 100px;
+  background-color: #fff;
+  box-shadow: 0 10px 60px 0 rgb(31 34 120 / 10%);
+  border-radius: 40px;
+  padding: 70px 0px 40px;
+  position: relative;
+}
+.contactUs-sec input,
+.contactUs-sec select {
+  border: 1px solid rgba(86, 90, 207, 0.3);
+  border-radius: 8px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  text-indent: 17px;
+  outline: none;
+  transition: 0.3s all ease-in-out;
+  text-transform: capitalize;
+}
+.contactUs-sec input::placeholder {
+  text-transform: capitalize;
+}
+.contactUs-sec input:hover,
+input:focus,
+select:hover,
+textarea:hover,
+textarea:focus {
+  border: 1px solid rgba(8, 144, 255, 0.979);
+}
+.contactus-form {
+  padding: 10px 38px !important;
+}
+.required svg {
+  margin-right: 9px;
+  color: rgb(255, 119, 0);
+  transition: 0.4s all ease-in-out;
+}
+.contactUs-sec textarea {
+  border: 1px solid rgba(86, 90, 207, 0.3);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  height: 134px;
+  outline: none;
+  margin-bottom: 15px;
+}
+.contactUs-sec button {
+  background-color: #f17732;
+  color: #fff;
+  width: 90%;
+  outline: none;
+  border: 1px solid #f17732;
+  border-radius: 11px;
+  height: 51px;
+  font-size: 19px;
+  transition: 0.3s all ease-in-out;
+}
+.contactUs-sec button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* start conatct us info */
+.contactus-infor {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  height: auto;
+  background-image: url("../../images/contact us/pic6.42f81537.jpg");
+  background-size: cover;
+  text-align: left;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactus-infor .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #565cc5db;
+  height: 100%;
+  width: 100%;
+}
+.contactus-info h2 {
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 26px;
+}
+.contactus-info {
+  width: 100%;
+  height: 100%;
+  padding: 50px 50px 30px;
+}
+.contactus-info span {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  text-transform: capitalize;
+}
+.contactus-info span svg {
+  margin-right: 10px;
+}
+.contactus-info span::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 78%;
+  height: 1.4px;
+  background-color: #ebebeba1;
+  border-radius: 4px;
+}
+.contactus-info p {
+  margin-top: 21px;
+  font-size: 16px;
+  font-family: sans-serif;
+  width: 269px;
+  line-height: 27.4px;
+}
+.social {
+  display: flex;
+  margin-top: 20px;
+}
+.social img {
+  width: 35px;
+  height: 33px;
+  border-radius: 50%;
+  margin-right: 13px;
+  display: block;
+  cursor: pointer;
+}

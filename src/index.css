@@ -1,13 +1,253 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
+:root {
+  --main-color-: #1f2278;
+  --orange-color: #f17732;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+span {
+  display: block;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+/* start media query 991px */
+/* @media only screen and (max-width: 991px) {
+  .leftdiv-details {
+    margin-top: 0px !important;
+  }
+  .AboutDetail button {
+    width: 70% !important;
+  }
+  .bookimg img {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 100%;
+  }
+  .bookimg .woman {
+    right: -57px !important;
+    top: -8px !important;
+    width: 49% !important;
+  }
+  .doctorimage ul li:nth-child(4),
+  .doctorimage ul li:nth-child(3) {
+    right: 261px !important;
+  }
+  .doctorimage ul li:nth-child(2),
+  .doctorimage ul li:nth-child(5) {
+    left: 35% !important;
+  }
+  .doctorimage {
+    left: 56px;
+  }
+  .BestDoctor {
+    left: 22%;
+  }
+  .questionblock:last-child {
+    margin-bottom: 50px;
+  }
+  .blockoneList li,
+  .block2 ul li {
+    left: 26%;
+  }
+} */
+/* start media query */
+/* @media only screen and (max-width: 767px) {
+  .rightdiv-img,
+  .header .square {
+    display: none;
+  }
+  .service li,
+  .AboutDetail button {
+    width: 430px !important;
+  }
+  .bookimg {
+    display: none;
+  }
+  .blocknews {
+    width: 422px;
+  }
+  .Bookform {
+    margin-left: 28px;
+    width: 439px;
+  }
+  .Bookform .formdetail {
+    width: 437px;
+  }
+  .service-detail button {
+    margin-bottom: 12px;
+  }
+  .testemonilecontent p {
+    line-height: 25px;
+    font-size: 22px;
+  }
+  .doctorimage ul li:nth-child(4),
+  .doctorimage ul li:nth-child(3) {
+    right: 81px !important;
+  }
+  .doctorimage ul li:nth-child(2),
+  .doctorimage ul li:nth-child(5) {
+    left: 44% !important;
+  }
+  .blocknews {
+    width: 510px !important;
+  } */
+/* start About page  */
+/* .Aboutus3rd-blocks .block {
+    width: 226px !important;
+    height: 280px !important;
+  }
+  .Aboutus3rd-blocks .backBorder {
+    width: 237px !important;
+    height: 287px !important;
+  }
+  .BestDoctor {
+    margin-left: 52px;
+  }
+  .servicesBlocks .serviceblock {
+    margin-left: 52px;
+  } */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* start why us details page */
+/* .questionblock:last-child {
+    margin-bottom: 50px;
+  }
+  .qustionDetails li {
+    height: 129px;
+  }
+} */
+
+/* @media screen and (max-width:480px) {
+ /* start home page */
+/* .traingle
+ {
+  top: 96% !important;
+ }
+ .leftdiv-details button
+ {
+  margin-top: 20px !important;
+  width: 73% !important;
+ }
+ .AboutDetail button
+ {
+   width: 309px!important;
+ }
+ .AboutDetail .square 
+ {
+  top: 131px !important;
+ }
+ .Book-Appointment
+ {
+  width: 358px !important;
+ }
+ .Bookform
+ {
+   width: 330px !important;
+   margin-left: 2px !important; 
+ }
+ .Bookform .formdetail
+ {
+   width: 299px !important;
+ }
+ .formdetail select,
+ .formdetail input
+ {
+   width: 262px !important;
+ }
+ .service-detail
+ {
+  height: 500px !important;
+ }
+ 
+ .serviceblock
+ {
+  width: 354px  !important;
+  height: 383px !important;
+ }
+ .doctorimage
+ {
+   display: none;
+ }
+ 
+ .testemonilecontent p
+ {
+  line-height: 22px !important;
+  font-size: 14px !important;
+  color: #fff;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 10px;
+ }
+ .blocknews
+ {
+   width: 357px !important;
+ }
+ 
+ .blocks
+ {
+   overflow: hidden;
+   height: 449px !important;
+ } 
+ .slick-next
+ {
+  right: -7px;
+ }
+ .slick-prev
+ {
+  left: -9px;
 }
+/* start About page */
+/* .Headerfxed h1
+{
+  font-size: 37px !important;
+}
+.BestDoctor
+{
+  left: 0;
+  margin-left: 0px;
+}
+.servicesBlocks .serviceblock
+{
+  margin-left: 0;
+}
+.Aboutus3rd-blocks .backBorder
+{
+  width: 297px !important;
+}
+.Aboutus3rd-blocks .block
+{
+  width: 293px !important;
+} */
+/* start why us details */
+/* .blockoneList li, .block2 ul li
+{
+  left: 0 !important;
+}
+.togglequestion .questionblock a
+{
+  font-size: 15px !important;
+}
+.qustionDetails li
+{
+  margin-bottom: 65px !important;
+}
+.contactUs-sec
+{
+  padding: 50px 3px 28px !important;
+}
+}   */

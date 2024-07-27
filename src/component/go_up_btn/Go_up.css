@@ -1,0 +1,22 @@
+.goup {
+  position: fixed;
+  letter-spacing: 0;
+  right: 15px;
+  bottom: 25px;
+  width: 45px;
+  height: 45px;
+  background-color: var(--main-color-);
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 45px;
+  padding: 0;
+  cursor: pointer;
+  z-index: 999999;
+  border-radius: 0;
+  border-radius: 50%;
+}
+.goup:hover {
+  background-color: #282b36;
+  color: #fff;
+}
